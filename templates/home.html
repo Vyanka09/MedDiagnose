@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+        body {
+            background-image: url('../static/result.png');
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: end;
+            margin: 0;
+            padding: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-style: italic;
+            font-size: 25px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-style: normal;
+            padding-right: 20px;
+        }
+
+        a:hover {
+            color: red;
+            border-radius: 8px;
+        }
+
+        .banner-1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            color: white;
+        }
+
+        .banner-1__text {
+            display: flex;
+            font-size: 35px;
+            width: 30rem;
+            height: 25rem;
+            align-items: center;
+        }
+
+        .banner-1__image {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner-1__image img {
+            border-radius: 20px;
+        }
+
+        .banner-2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: stretch;
+            align-items: center;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            padding: 20px; /* Adjust as needed */
+        }
+
+        h2 {
+            font-size: 40px;
+            font-family: 'Ubuntu', sans-serif;
+            color: white;
+        }
+
+        .fin_img {
+            border-radius: 20px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            font-size: 20px;
+            font-family: 'Arial';
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="/upload">Predict</a>
+        <a href="/info">Info</a>
+        <a href="/about">Home</a>
+    </nav>
+
+    <div class="banner-1">
+        <div class="banner-1__text">
+            Welcome To ECG- Image Based Heartbeat Classification Application For Arrhythmia Detection
+        </div>
+        <div class="banner-1__image">
+            <img src="../static/hd1.png" alt="" srcset="">
+        </div>
+    </div>
+
+    <div class="banner-2">
+        <h2>ECG Arrhythmia Classification using CNN</h2>
+        <ul>
+            <li>
+                According to the World Health Organization (WHO), cardiovascular diseases (CVDs) are the number one cause of
+                death today. Over 17.7 million people died from CVDs in the year 2017 all over the world, which is about
+                31% of all deaths, and over 75% of these deaths occur in low and middle income countries. Arrhythmia is a
+                representative type of CVD that refers to any irregular change from the normal heart rhythms.
+            </li>
+            <li> There are several types of arrhythmia including atrial fibrillation, premature contraction, ventricular
+                fibrillation, and tachycardia. Although single arrhythmia heartbeat may not have a serious impact on life,
+                continuous arrhythmia beats can result in fatal circumstances. Electrocardiogram (ECG) is a non-invasive
+                medical tool that displays the rhythm and status of the heart. Therefore, automatic detection of irregular
+                heart rhythms from ECG signals is a significant task in the field of cardiology.
+            </li>
+            <li>
+                A heart arrhythmia (uh-RITH-me-uh) is an irregular heartbeat. Heart rhythm problems (heart arrhythmias)
+                occur when the electrical signals that coordinate the heart's beats don't work properly. The faulty
+                signaling causes the heart to beat too fast (tachycardia), too slow (bradycardia) or irregularly.
+            </li>
+            <li>
+                Heart arrhythmias may feel like a fluttering or racing heart and may be harmless. However, some heart
+                arrhythmias may cause bothersome — sometimes even life-threatening — signs and symptoms.
+            </li>
+            <li>
+                Heart arrhythmia treatment may include medications, catheter procedures, implanted devices or surgery to
+                control or eliminate fast, slow or irregular heartbeats. A heart-healthy lifestyle can help prevent heart
+                damage that can trigger certain heart arrhythmias.
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
